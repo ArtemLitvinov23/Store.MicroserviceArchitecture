@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.ApiGateway", "Store.MicroserviceArchitecture\Store.ApiGateway.csproj", "{BC17071E-6635-4D37-B7DD-FCCBA167DBC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{BAF0BDF9-C329-49F2-86BA-20495BE76CC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication.API", "Authentication.API", "{C41C968A-848B-4D9C-AA18-D8002A52B946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tickets.API", "Tickets.API", "{E9A45835-8193-4AEB-8185-BDD700B8A926}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket.API", "Basket.API", "{2F1010C3-8C5D-4C74-A508-FF248EA19F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering.API", "Ordering.API", "{A6EAA758-49EC-465F-B085-2110409DF7B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.API", "Authentication.API\Authentication.API.csproj", "{0AF8AAE8-10BB-457C-B2DE-626544F12420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.API.Tests", "Authentication.API.Tests\Authentication.API.Tests.csproj", "{3764AD9F-DEB3-4EE0-904B-7CD5C4CC4F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC17071E-6635-4D37-B7DD-FCCBA167DBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC17071E-6635-4D37-B7DD-FCCBA167DBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC17071E-6635-4D37-B7DD-FCCBA167DBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC17071E-6635-4D37-B7DD-FCCBA167DBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF8AAE8-10BB-457C-B2DE-626544F12420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF8AAE8-10BB-457C-B2DE-626544F12420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF8AAE8-10BB-457C-B2DE-626544F12420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF8AAE8-10BB-457C-B2DE-626544F12420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3764AD9F-DEB3-4EE0-904B-7CD5C4CC4F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3764AD9F-DEB3-4EE0-904B-7CD5C4CC4F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3764AD9F-DEB3-4EE0-904B-7CD5C4CC4F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3764AD9F-DEB3-4EE0-904B-7CD5C4CC4F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C41C968A-848B-4D9C-AA18-D8002A52B946} = {BAF0BDF9-C329-49F2-86BA-20495BE76CC9}
+		{E9A45835-8193-4AEB-8185-BDD700B8A926} = {BAF0BDF9-C329-49F2-86BA-20495BE76CC9}
+		{2F1010C3-8C5D-4C74-A508-FF248EA19F62} = {BAF0BDF9-C329-49F2-86BA-20495BE76CC9}
+		{A6EAA758-49EC-465F-B085-2110409DF7B3} = {BAF0BDF9-C329-49F2-86BA-20495BE76CC9}
+		{0AF8AAE8-10BB-457C-B2DE-626544F12420} = {C41C968A-848B-4D9C-AA18-D8002A52B946}
+		{3764AD9F-DEB3-4EE0-904B-7CD5C4CC4F7E} = {C41C968A-848B-4D9C-AA18-D8002A52B946}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {620D5AA3-0512-4710-B7B3-0ED871C605D1}
+	EndGlobalSection
+EndGlobal
